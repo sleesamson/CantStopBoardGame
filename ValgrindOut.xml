@@ -1,0 +1,864 @@
+<?xml version="1.0"?>
+
+<valgrindoutput>
+
+<protocolversion>4</protocolversion>
+<protocoltool>memcheck</protocoltool>
+
+<preamble>
+  <line>Memcheck, a memory error detector</line>
+  <line>Copyright (C) 2002-2011, and GNU GPL'd, by Julian Seward et al.</line>
+  <line>Using Valgrind-3.7.0 and LibVEX; rerun with -h for copyright info</line>
+  <line>Command: bin/Debug/CantStop </line>
+</preamble>
+
+<pid>29358</pid>
+<ppid>15017</ppid>
+<tool>memcheck</tool>
+
+<args>
+  <vargv>
+    <exe>/usr/bin/valgrind.bin</exe>
+    <arg>--suppressions=/usr/lib/valgrind/debian-libc6-dbg.supp</arg>
+    <arg>--leak-check=yes</arg>
+    <arg>--xml=yes</arg>
+    <arg>--xml-file=ValgrindOut.xml</arg>
+  </vargv>
+  <argv>
+    <exe>bin/Debug/CantStop</exe>
+    <arg></arg>
+  </argv>
+</args>
+
+<status>
+  <state>RUNNING</state>
+  <time>00:00:00:00.758 </time>
+</status>
+
+<error>
+  <unique>0x2</unique>
+  <tid>1</tid>
+  <kind>InvalidWrite</kind>
+  <what>Invalid write of size 8</what>
+  <stack>
+    <frame>
+      <ip>0x404FCC</ip>
+      <obj>/home/slee/CantStop/bin/Debug/CantStop</obj>
+      <fn>CList&lt;Player&gt;::~CList()</fn>
+      <dir>/home/slee/CantStop</dir>
+      <file>CList.hpp</file>
+      <line>59</line>
+    </frame>
+    <frame>
+      <ip>0x404EE6</ip>
+      <obj>/home/slee/CantStop/bin/Debug/CantStop</obj>
+      <fn>Game::~Game()</fn>
+      <dir>/home/slee/CantStop</dir>
+      <file>game.hpp</file>
+      <line>33</line>
+    </frame>
+    <frame>
+      <ip>0x40457A</ip>
+      <obj>/home/slee/CantStop/bin/Debug/CantStop</obj>
+      <fn>main</fn>
+      <dir>/home/slee/CantStop</dir>
+      <file>main.cpp</file>
+      <line>31</line>
+    </frame>
+  </stack>
+  <auxwhat>Address 0x5a07248 is 8 bytes inside a block of size 16 free'd</auxwhat>
+  <stack>
+    <frame>
+      <ip>0x4C2A44B</ip>
+      <obj>/usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so</obj>
+      <fn>operator delete(void*)</fn>
+    </frame>
+    <frame>
+      <ip>0x404480</ip>
+      <obj>/home/slee/CantStop/bin/Debug/CantStop</obj>
+      <fn>CList&lt;Player&gt;::remove()</fn>
+      <dir>/home/slee/CantStop</dir>
+      <file>CList.hpp</file>
+      <line>122</line>
+    </frame>
+    <frame>
+      <ip>0x403F69</ip>
+      <obj>/home/slee/CantStop/bin/Debug/CantStop</obj>
+      <fn>Game::CListUnitTest()</fn>
+      <dir>/home/slee/CantStop</dir>
+      <file>game.cpp</file>
+      <line>149</line>
+    </frame>
+    <frame>
+      <ip>0x404E96</ip>
+      <obj>/home/slee/CantStop/bin/Debug/CantStop</obj>
+      <fn>Game::Game()</fn>
+      <dir>/home/slee/CantStop</dir>
+      <file>game.hpp</file>
+      <line>31</line>
+    </frame>
+    <frame>
+      <ip>0x404569</ip>
+      <obj>/home/slee/CantStop/bin/Debug/CantStop</obj>
+      <fn>main</fn>
+      <dir>/home/slee/CantStop</dir>
+      <file>main.cpp</file>
+      <line>25</line>
+    </frame>
+  </stack>
+</error>
+
+<error>
+  <unique>0x5</unique>
+  <tid>1</tid>
+  <kind>InvalidRead</kind>
+  <what>Invalid read of size 8</what>
+  <stack>
+    <frame>
+      <ip>0x404F70</ip>
+      <obj>/home/slee/CantStop/bin/Debug/CantStop</obj>
+      <fn>CList&lt;Player&gt;::~CList()</fn>
+      <dir>/home/slee/CantStop</dir>
+      <file>CList.hpp</file>
+      <line>52</line>
+    </frame>
+    <frame>
+      <ip>0x404EE6</ip>
+      <obj>/home/slee/CantStop/bin/Debug/CantStop</obj>
+      <fn>Game::~Game()</fn>
+      <dir>/home/slee/CantStop</dir>
+      <file>game.hpp</file>
+      <line>33</line>
+    </frame>
+    <frame>
+      <ip>0x40457A</ip>
+      <obj>/home/slee/CantStop/bin/Debug/CantStop</obj>
+      <fn>main</fn>
+      <dir>/home/slee/CantStop</dir>
+      <file>main.cpp</file>
+      <line>31</line>
+    </frame>
+  </stack>
+  <auxwhat>Address 0x5a07158 is 8 bytes inside a block of size 16 free'd</auxwhat>
+  <stack>
+    <frame>
+      <ip>0x4C2A44B</ip>
+      <obj>/usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so</obj>
+      <fn>operator delete(void*)</fn>
+    </frame>
+    <frame>
+      <ip>0x404FE8</ip>
+      <obj>/home/slee/CantStop/bin/Debug/CantStop</obj>
+      <fn>CList&lt;Player&gt;::~CList()</fn>
+      <dir>/home/slee/CantStop</dir>
+      <file>CList.hpp</file>
+      <line>60</line>
+    </frame>
+    <frame>
+      <ip>0x404EE6</ip>
+      <obj>/home/slee/CantStop/bin/Debug/CantStop</obj>
+      <fn>Game::~Game()</fn>
+      <dir>/home/slee/CantStop</dir>
+      <file>game.hpp</file>
+      <line>33</line>
+    </frame>
+    <frame>
+      <ip>0x40457A</ip>
+      <obj>/home/slee/CantStop/bin/Debug/CantStop</obj>
+      <fn>main</fn>
+      <dir>/home/slee/CantStop</dir>
+      <file>main.cpp</file>
+      <line>31</line>
+    </frame>
+  </stack>
+</error>
+
+<error>
+  <unique>0x6</unique>
+  <tid>1</tid>
+  <kind>InvalidRead</kind>
+  <what>Invalid read of size 8</what>
+  <stack>
+    <frame>
+      <ip>0x404FB0</ip>
+      <obj>/home/slee/CantStop/bin/Debug/CantStop</obj>
+      <fn>CList&lt;Player&gt;::~CList()</fn>
+      <dir>/home/slee/CantStop</dir>
+      <file>CList.hpp</file>
+      <line>58</line>
+    </frame>
+    <frame>
+      <ip>0x404EE6</ip>
+      <obj>/home/slee/CantStop/bin/Debug/CantStop</obj>
+      <fn>Game::~Game()</fn>
+      <dir>/home/slee/CantStop</dir>
+      <file>game.hpp</file>
+      <line>33</line>
+    </frame>
+    <frame>
+      <ip>0x40457A</ip>
+      <obj>/home/slee/CantStop/bin/Debug/CantStop</obj>
+      <fn>main</fn>
+      <dir>/home/slee/CantStop</dir>
+      <file>main.cpp</file>
+      <line>31</line>
+    </frame>
+  </stack>
+  <auxwhat>Address 0x5a07158 is 8 bytes inside a block of size 16 free'd</auxwhat>
+  <stack>
+    <frame>
+      <ip>0x4C2A44B</ip>
+      <obj>/usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so</obj>
+      <fn>operator delete(void*)</fn>
+    </frame>
+    <frame>
+      <ip>0x404FE8</ip>
+      <obj>/home/slee/CantStop/bin/Debug/CantStop</obj>
+      <fn>CList&lt;Player&gt;::~CList()</fn>
+      <dir>/home/slee/CantStop</dir>
+      <file>CList.hpp</file>
+      <line>60</line>
+    </frame>
+    <frame>
+      <ip>0x404EE6</ip>
+      <obj>/home/slee/CantStop/bin/Debug/CantStop</obj>
+      <fn>Game::~Game()</fn>
+      <dir>/home/slee/CantStop</dir>
+      <file>game.hpp</file>
+      <line>33</line>
+    </frame>
+    <frame>
+      <ip>0x40457A</ip>
+      <obj>/home/slee/CantStop/bin/Debug/CantStop</obj>
+      <fn>main</fn>
+      <dir>/home/slee/CantStop</dir>
+      <file>main.cpp</file>
+      <line>31</line>
+    </frame>
+  </stack>
+</error>
+
+<error>
+  <unique>0x8</unique>
+  <tid>1</tid>
+  <kind>InvalidRead</kind>
+  <what>Invalid read of size 8</what>
+  <stack>
+    <frame>
+      <ip>0x404499</ip>
+      <obj>/home/slee/CantStop/bin/Debug/CantStop</obj>
+      <fn>Cell&lt;Player&gt;::~Cell()</fn>
+    </frame>
+    <frame>
+      <ip>0x404FE0</ip>
+      <obj>/home/slee/CantStop/bin/Debug/CantStop</obj>
+      <fn>CList&lt;Player&gt;::~CList()</fn>
+      <dir>/home/slee/CantStop</dir>
+      <file>CList.hpp</file>
+      <line>60</line>
+    </frame>
+    <frame>
+      <ip>0x404EE6</ip>
+      <obj>/home/slee/CantStop/bin/Debug/CantStop</obj>
+      <fn>Game::~Game()</fn>
+      <dir>/home/slee/CantStop</dir>
+      <file>game.hpp</file>
+      <line>33</line>
+    </frame>
+    <frame>
+      <ip>0x40457A</ip>
+      <obj>/home/slee/CantStop/bin/Debug/CantStop</obj>
+      <fn>main</fn>
+      <dir>/home/slee/CantStop</dir>
+      <file>main.cpp</file>
+      <line>31</line>
+    </frame>
+  </stack>
+  <auxwhat>Address 0x5a07150 is 0 bytes inside a block of size 16 free'd</auxwhat>
+  <stack>
+    <frame>
+      <ip>0x4C2A44B</ip>
+      <obj>/usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so</obj>
+      <fn>operator delete(void*)</fn>
+    </frame>
+    <frame>
+      <ip>0x404FE8</ip>
+      <obj>/home/slee/CantStop/bin/Debug/CantStop</obj>
+      <fn>CList&lt;Player&gt;::~CList()</fn>
+      <dir>/home/slee/CantStop</dir>
+      <file>CList.hpp</file>
+      <line>60</line>
+    </frame>
+    <frame>
+      <ip>0x404EE6</ip>
+      <obj>/home/slee/CantStop/bin/Debug/CantStop</obj>
+      <fn>Game::~Game()</fn>
+      <dir>/home/slee/CantStop</dir>
+      <file>game.hpp</file>
+      <line>33</line>
+    </frame>
+    <frame>
+      <ip>0x40457A</ip>
+      <obj>/home/slee/CantStop/bin/Debug/CantStop</obj>
+      <fn>main</fn>
+      <dir>/home/slee/CantStop</dir>
+      <file>main.cpp</file>
+      <line>31</line>
+    </frame>
+  </stack>
+</error>
+
+<error>
+  <unique>0x9</unique>
+  <tid>1</tid>
+  <kind>InvalidRead</kind>
+  <what>Invalid read of size 8</what>
+  <stack>
+    <frame>
+      <ip>0x4EEE520</ip>
+      <obj>/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.17</obj>
+      <fn>std::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt; &gt;::~basic_string()</fn>
+    </frame>
+    <frame>
+      <ip>0x40420B</ip>
+      <obj>/home/slee/CantStop/bin/Debug/CantStop</obj>
+      <fn>Player::~Player()</fn>
+      <dir>/home/slee/CantStop</dir>
+      <file>player.hpp</file>
+      <line>19</line>
+    </frame>
+    <frame>
+      <ip>0x4044A8</ip>
+      <obj>/home/slee/CantStop/bin/Debug/CantStop</obj>
+      <fn>Cell&lt;Player&gt;::~Cell()</fn>
+    </frame>
+    <frame>
+      <ip>0x404FE0</ip>
+      <obj>/home/slee/CantStop/bin/Debug/CantStop</obj>
+      <fn>CList&lt;Player&gt;::~CList()</fn>
+      <dir>/home/slee/CantStop</dir>
+      <file>CList.hpp</file>
+      <line>60</line>
+    </frame>
+    <frame>
+      <ip>0x404EE6</ip>
+      <obj>/home/slee/CantStop/bin/Debug/CantStop</obj>
+      <fn>Game::~Game()</fn>
+      <dir>/home/slee/CantStop</dir>
+      <file>game.hpp</file>
+      <line>33</line>
+    </frame>
+    <frame>
+      <ip>0x40457A</ip>
+      <obj>/home/slee/CantStop/bin/Debug/CantStop</obj>
+      <fn>main</fn>
+      <dir>/home/slee/CantStop</dir>
+      <file>main.cpp</file>
+      <line>31</line>
+    </frame>
+  </stack>
+  <auxwhat>Address 0x5a06eb0 is 0 bytes inside a block of size 32 free'd</auxwhat>
+  <stack>
+    <frame>
+      <ip>0x4C2A44B</ip>
+      <obj>/usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so</obj>
+      <fn>operator delete(void*)</fn>
+    </frame>
+    <frame>
+      <ip>0x4044B0</ip>
+      <obj>/home/slee/CantStop/bin/Debug/CantStop</obj>
+      <fn>Cell&lt;Player&gt;::~Cell()</fn>
+    </frame>
+    <frame>
+      <ip>0x404FE0</ip>
+      <obj>/home/slee/CantStop/bin/Debug/CantStop</obj>
+      <fn>CList&lt;Player&gt;::~CList()</fn>
+      <dir>/home/slee/CantStop</dir>
+      <file>CList.hpp</file>
+      <line>60</line>
+    </frame>
+    <frame>
+      <ip>0x404EE6</ip>
+      <obj>/home/slee/CantStop/bin/Debug/CantStop</obj>
+      <fn>Game::~Game()</fn>
+      <dir>/home/slee/CantStop</dir>
+      <file>game.hpp</file>
+      <line>33</line>
+    </frame>
+    <frame>
+      <ip>0x40457A</ip>
+      <obj>/home/slee/CantStop/bin/Debug/CantStop</obj>
+      <fn>main</fn>
+      <dir>/home/slee/CantStop</dir>
+      <file>main.cpp</file>
+      <line>31</line>
+    </frame>
+  </stack>
+</error>
+
+<error>
+  <unique>0xa</unique>
+  <tid>1</tid>
+  <kind>InvalidRead</kind>
+  <what>Invalid read of size 4</what>
+  <stack>
+    <frame>
+      <ip>0x4EEE4EF</ip>
+      <obj>/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.17</obj>
+    </frame>
+    <frame>
+      <ip>0x4EEE53F</ip>
+      <obj>/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.17</obj>
+      <fn>std::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt; &gt;::~basic_string()</fn>
+    </frame>
+    <frame>
+      <ip>0x40420B</ip>
+      <obj>/home/slee/CantStop/bin/Debug/CantStop</obj>
+      <fn>Player::~Player()</fn>
+      <dir>/home/slee/CantStop</dir>
+      <file>player.hpp</file>
+      <line>19</line>
+    </frame>
+    <frame>
+      <ip>0x4044A8</ip>
+      <obj>/home/slee/CantStop/bin/Debug/CantStop</obj>
+      <fn>Cell&lt;Player&gt;::~Cell()</fn>
+    </frame>
+    <frame>
+      <ip>0x404FE0</ip>
+      <obj>/home/slee/CantStop/bin/Debug/CantStop</obj>
+      <fn>CList&lt;Player&gt;::~CList()</fn>
+      <dir>/home/slee/CantStop</dir>
+      <file>CList.hpp</file>
+      <line>60</line>
+    </frame>
+    <frame>
+      <ip>0x404EE6</ip>
+      <obj>/home/slee/CantStop/bin/Debug/CantStop</obj>
+      <fn>Game::~Game()</fn>
+      <dir>/home/slee/CantStop</dir>
+      <file>game.hpp</file>
+      <line>33</line>
+    </frame>
+    <frame>
+      <ip>0x40457A</ip>
+      <obj>/home/slee/CantStop/bin/Debug/CantStop</obj>
+      <fn>main</fn>
+      <dir>/home/slee/CantStop</dir>
+      <file>main.cpp</file>
+      <line>31</line>
+    </frame>
+  </stack>
+  <auxwhat>Address 0x5a06e60 is 16 bytes inside a block of size 28 free'd</auxwhat>
+  <stack>
+    <frame>
+      <ip>0x4C2A44B</ip>
+      <obj>/usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so</obj>
+      <fn>operator delete(void*)</fn>
+    </frame>
+    <frame>
+      <ip>0x4EEE53F</ip>
+      <obj>/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.17</obj>
+      <fn>std::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt; &gt;::~basic_string()</fn>
+    </frame>
+    <frame>
+      <ip>0x40420B</ip>
+      <obj>/home/slee/CantStop/bin/Debug/CantStop</obj>
+      <fn>Player::~Player()</fn>
+      <dir>/home/slee/CantStop</dir>
+      <file>player.hpp</file>
+      <line>19</line>
+    </frame>
+    <frame>
+      <ip>0x4044A8</ip>
+      <obj>/home/slee/CantStop/bin/Debug/CantStop</obj>
+      <fn>Cell&lt;Player&gt;::~Cell()</fn>
+    </frame>
+    <frame>
+      <ip>0x404FE0</ip>
+      <obj>/home/slee/CantStop/bin/Debug/CantStop</obj>
+      <fn>CList&lt;Player&gt;::~CList()</fn>
+      <dir>/home/slee/CantStop</dir>
+      <file>CList.hpp</file>
+      <line>60</line>
+    </frame>
+    <frame>
+      <ip>0x404EE6</ip>
+      <obj>/home/slee/CantStop/bin/Debug/CantStop</obj>
+      <fn>Game::~Game()</fn>
+      <dir>/home/slee/CantStop</dir>
+      <file>game.hpp</file>
+      <line>33</line>
+    </frame>
+    <frame>
+      <ip>0x40457A</ip>
+      <obj>/home/slee/CantStop/bin/Debug/CantStop</obj>
+      <fn>main</fn>
+      <dir>/home/slee/CantStop</dir>
+      <file>main.cpp</file>
+      <line>31</line>
+    </frame>
+  </stack>
+</error>
+
+<error>
+  <unique>0xb</unique>
+  <tid>1</tid>
+  <kind>InvalidWrite</kind>
+  <what>Invalid write of size 4</what>
+  <stack>
+    <frame>
+      <ip>0x4EEE4F5</ip>
+      <obj>/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.17</obj>
+    </frame>
+    <frame>
+      <ip>0x4EEE53F</ip>
+      <obj>/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.17</obj>
+      <fn>std::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt; &gt;::~basic_string()</fn>
+    </frame>
+    <frame>
+      <ip>0x40420B</ip>
+      <obj>/home/slee/CantStop/bin/Debug/CantStop</obj>
+      <fn>Player::~Player()</fn>
+      <dir>/home/slee/CantStop</dir>
+      <file>player.hpp</file>
+      <line>19</line>
+    </frame>
+    <frame>
+      <ip>0x4044A8</ip>
+      <obj>/home/slee/CantStop/bin/Debug/CantStop</obj>
+      <fn>Cell&lt;Player&gt;::~Cell()</fn>
+    </frame>
+    <frame>
+      <ip>0x404FE0</ip>
+      <obj>/home/slee/CantStop/bin/Debug/CantStop</obj>
+      <fn>CList&lt;Player&gt;::~CList()</fn>
+      <dir>/home/slee/CantStop</dir>
+      <file>CList.hpp</file>
+      <line>60</line>
+    </frame>
+    <frame>
+      <ip>0x404EE6</ip>
+      <obj>/home/slee/CantStop/bin/Debug/CantStop</obj>
+      <fn>Game::~Game()</fn>
+      <dir>/home/slee/CantStop</dir>
+      <file>game.hpp</file>
+      <line>33</line>
+    </frame>
+    <frame>
+      <ip>0x40457A</ip>
+      <obj>/home/slee/CantStop/bin/Debug/CantStop</obj>
+      <fn>main</fn>
+      <dir>/home/slee/CantStop</dir>
+      <file>main.cpp</file>
+      <line>31</line>
+    </frame>
+  </stack>
+  <auxwhat>Address 0x5a06e60 is 16 bytes inside a block of size 28 free'd</auxwhat>
+  <stack>
+    <frame>
+      <ip>0x4C2A44B</ip>
+      <obj>/usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so</obj>
+      <fn>operator delete(void*)</fn>
+    </frame>
+    <frame>
+      <ip>0x4EEE53F</ip>
+      <obj>/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.17</obj>
+      <fn>std::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt; &gt;::~basic_string()</fn>
+    </frame>
+    <frame>
+      <ip>0x40420B</ip>
+      <obj>/home/slee/CantStop/bin/Debug/CantStop</obj>
+      <fn>Player::~Player()</fn>
+      <dir>/home/slee/CantStop</dir>
+      <file>player.hpp</file>
+      <line>19</line>
+    </frame>
+    <frame>
+      <ip>0x4044A8</ip>
+      <obj>/home/slee/CantStop/bin/Debug/CantStop</obj>
+      <fn>Cell&lt;Player&gt;::~Cell()</fn>
+    </frame>
+    <frame>
+      <ip>0x404FE0</ip>
+      <obj>/home/slee/CantStop/bin/Debug/CantStop</obj>
+      <fn>CList&lt;Player&gt;::~CList()</fn>
+      <dir>/home/slee/CantStop</dir>
+      <file>CList.hpp</file>
+      <line>60</line>
+    </frame>
+    <frame>
+      <ip>0x404EE6</ip>
+      <obj>/home/slee/CantStop/bin/Debug/CantStop</obj>
+      <fn>Game::~Game()</fn>
+      <dir>/home/slee/CantStop</dir>
+      <file>game.hpp</file>
+      <line>33</line>
+    </frame>
+    <frame>
+      <ip>0x40457A</ip>
+      <obj>/home/slee/CantStop/bin/Debug/CantStop</obj>
+      <fn>main</fn>
+      <dir>/home/slee/CantStop</dir>
+      <file>main.cpp</file>
+      <line>31</line>
+    </frame>
+  </stack>
+</error>
+
+<error>
+  <unique>0xc</unique>
+  <tid>1</tid>
+  <kind>InvalidFree</kind>
+  <what>Invalid free() / delete / delete[] / realloc()</what>
+  <stack>
+    <frame>
+      <ip>0x4C2A44B</ip>
+      <obj>/usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so</obj>
+      <fn>operator delete(void*)</fn>
+    </frame>
+    <frame>
+      <ip>0x4EEE53F</ip>
+      <obj>/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.17</obj>
+      <fn>std::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt; &gt;::~basic_string()</fn>
+    </frame>
+    <frame>
+      <ip>0x40420B</ip>
+      <obj>/home/slee/CantStop/bin/Debug/CantStop</obj>
+      <fn>Player::~Player()</fn>
+      <dir>/home/slee/CantStop</dir>
+      <file>player.hpp</file>
+      <line>19</line>
+    </frame>
+    <frame>
+      <ip>0x4044A8</ip>
+      <obj>/home/slee/CantStop/bin/Debug/CantStop</obj>
+      <fn>Cell&lt;Player&gt;::~Cell()</fn>
+    </frame>
+    <frame>
+      <ip>0x404FE0</ip>
+      <obj>/home/slee/CantStop/bin/Debug/CantStop</obj>
+      <fn>CList&lt;Player&gt;::~CList()</fn>
+      <dir>/home/slee/CantStop</dir>
+      <file>CList.hpp</file>
+      <line>60</line>
+    </frame>
+    <frame>
+      <ip>0x404EE6</ip>
+      <obj>/home/slee/CantStop/bin/Debug/CantStop</obj>
+      <fn>Game::~Game()</fn>
+      <dir>/home/slee/CantStop</dir>
+      <file>game.hpp</file>
+      <line>33</line>
+    </frame>
+    <frame>
+      <ip>0x40457A</ip>
+      <obj>/home/slee/CantStop/bin/Debug/CantStop</obj>
+      <fn>main</fn>
+      <dir>/home/slee/CantStop</dir>
+      <file>main.cpp</file>
+      <line>31</line>
+    </frame>
+  </stack>
+  <auxwhat>Address 0x5a06e50 is 0 bytes inside a block of size 28 free'd</auxwhat>
+  <stack>
+    <frame>
+      <ip>0x4C2A44B</ip>
+      <obj>/usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so</obj>
+      <fn>operator delete(void*)</fn>
+    </frame>
+    <frame>
+      <ip>0x4EEE53F</ip>
+      <obj>/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.17</obj>
+      <fn>std::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt; &gt;::~basic_string()</fn>
+    </frame>
+    <frame>
+      <ip>0x40420B</ip>
+      <obj>/home/slee/CantStop/bin/Debug/CantStop</obj>
+      <fn>Player::~Player()</fn>
+      <dir>/home/slee/CantStop</dir>
+      <file>player.hpp</file>
+      <line>19</line>
+    </frame>
+    <frame>
+      <ip>0x4044A8</ip>
+      <obj>/home/slee/CantStop/bin/Debug/CantStop</obj>
+      <fn>Cell&lt;Player&gt;::~Cell()</fn>
+    </frame>
+    <frame>
+      <ip>0x404FE0</ip>
+      <obj>/home/slee/CantStop/bin/Debug/CantStop</obj>
+      <fn>CList&lt;Player&gt;::~CList()</fn>
+      <dir>/home/slee/CantStop</dir>
+      <file>CList.hpp</file>
+      <line>60</line>
+    </frame>
+    <frame>
+      <ip>0x404EE6</ip>
+      <obj>/home/slee/CantStop/bin/Debug/CantStop</obj>
+      <fn>Game::~Game()</fn>
+      <dir>/home/slee/CantStop</dir>
+      <file>game.hpp</file>
+      <line>33</line>
+    </frame>
+    <frame>
+      <ip>0x40457A</ip>
+      <obj>/home/slee/CantStop/bin/Debug/CantStop</obj>
+      <fn>main</fn>
+      <dir>/home/slee/CantStop</dir>
+      <file>main.cpp</file>
+      <line>31</line>
+    </frame>
+  </stack>
+</error>
+
+<error>
+  <unique>0xd</unique>
+  <tid>1</tid>
+  <kind>InvalidFree</kind>
+  <what>Invalid free() / delete / delete[] / realloc()</what>
+  <stack>
+    <frame>
+      <ip>0x4C2A44B</ip>
+      <obj>/usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so</obj>
+      <fn>operator delete(void*)</fn>
+    </frame>
+    <frame>
+      <ip>0x4044B0</ip>
+      <obj>/home/slee/CantStop/bin/Debug/CantStop</obj>
+      <fn>Cell&lt;Player&gt;::~Cell()</fn>
+    </frame>
+    <frame>
+      <ip>0x404FE0</ip>
+      <obj>/home/slee/CantStop/bin/Debug/CantStop</obj>
+      <fn>CList&lt;Player&gt;::~CList()</fn>
+      <dir>/home/slee/CantStop</dir>
+      <file>CList.hpp</file>
+      <line>60</line>
+    </frame>
+    <frame>
+      <ip>0x404EE6</ip>
+      <obj>/home/slee/CantStop/bin/Debug/CantStop</obj>
+      <fn>Game::~Game()</fn>
+      <dir>/home/slee/CantStop</dir>
+      <file>game.hpp</file>
+      <line>33</line>
+    </frame>
+    <frame>
+      <ip>0x40457A</ip>
+      <obj>/home/slee/CantStop/bin/Debug/CantStop</obj>
+      <fn>main</fn>
+      <dir>/home/slee/CantStop</dir>
+      <file>main.cpp</file>
+      <line>31</line>
+    </frame>
+  </stack>
+  <auxwhat>Address 0x5a06eb0 is 0 bytes inside a block of size 32 free'd</auxwhat>
+  <stack>
+    <frame>
+      <ip>0x4C2A44B</ip>
+      <obj>/usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so</obj>
+      <fn>operator delete(void*)</fn>
+    </frame>
+    <frame>
+      <ip>0x4044B0</ip>
+      <obj>/home/slee/CantStop/bin/Debug/CantStop</obj>
+      <fn>Cell&lt;Player&gt;::~Cell()</fn>
+    </frame>
+    <frame>
+      <ip>0x404FE0</ip>
+      <obj>/home/slee/CantStop/bin/Debug/CantStop</obj>
+      <fn>CList&lt;Player&gt;::~CList()</fn>
+      <dir>/home/slee/CantStop</dir>
+      <file>CList.hpp</file>
+      <line>60</line>
+    </frame>
+    <frame>
+      <ip>0x404EE6</ip>
+      <obj>/home/slee/CantStop/bin/Debug/CantStop</obj>
+      <fn>Game::~Game()</fn>
+      <dir>/home/slee/CantStop</dir>
+      <file>game.hpp</file>
+      <line>33</line>
+    </frame>
+    <frame>
+      <ip>0x40457A</ip>
+      <obj>/home/slee/CantStop/bin/Debug/CantStop</obj>
+      <fn>main</fn>
+      <dir>/home/slee/CantStop</dir>
+      <file>main.cpp</file>
+      <line>31</line>
+    </frame>
+  </stack>
+</error>
+
+<error>
+  <unique>0xe</unique>
+  <tid>1</tid>
+  <kind>InvalidFree</kind>
+  <what>Invalid free() / delete / delete[] / realloc()</what>
+  <stack>
+    <frame>
+      <ip>0x4C2A44B</ip>
+      <obj>/usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so</obj>
+      <fn>operator delete(void*)</fn>
+    </frame>
+    <frame>
+      <ip>0x404FE8</ip>
+      <obj>/home/slee/CantStop/bin/Debug/CantStop</obj>
+      <fn>CList&lt;Player&gt;::~CList()</fn>
+      <dir>/home/slee/CantStop</dir>
+      <file>CList.hpp</file>
+      <line>60</line>
+    </frame>
+    <frame>
+      <ip>0x404EE6</ip>
+      <obj>/home/slee/CantStop/bin/Debug/CantStop</obj>
+      <fn>Game::~Game()</fn>
+      <dir>/home/slee/CantStop</dir>
+      <file>game.hpp</file>
+      <line>33</line>
+    </frame>
+    <frame>
+      <ip>0x40457A</ip>
+      <obj>/home/slee/CantStop/bin/Debug/CantStop</obj>
+      <fn>main</fn>
+      <dir>/home/slee/CantStop</dir>
+      <file>main.cpp</file>
+      <line>31</line>
+    </frame>
+  </stack>
+  <auxwhat>Address 0x5a07150 is 0 bytes inside a block of size 16 free'd</auxwhat>
+  <stack>
+    <frame>
+      <ip>0x4C2A44B</ip>
+      <obj>/usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so</obj>
+      <fn>operator delete(void*)</fn>
+    </frame>
+    <frame>
+      <ip>0x404FE8</ip>
+      <obj>/home/slee/CantStop/bin/Debug/CantStop</obj>
+      <fn>CList&lt;Player&gt;::~CList()</fn>
+      <dir>/home/slee/CantStop</dir>
+      <file>CList.hpp</file>
+      <line>60</line>
+    </frame>
+    <frame>
+      <ip>0x404EE6</ip>
+      <obj>/home/slee/CantStop/bin/Debug/CantStop</obj>
+      <fn>Game::~Game()</fn>
+      <dir>/home/slee/CantStop</dir>
+      <file>game.hpp</file>
+      <line>33</line>
+    </frame>
+    <frame>
+      <ip>0x40457A</ip>
+      <obj>/home/slee/CantStop/bin/Debug/CantStop</obj>
+      <fn>main</fn>
+      <dir>/home/slee/CantStop</dir>
+      <file>main.cpp</file>
+      <line>31</line>
+    </frame>
+  </stack>
+</error>
+

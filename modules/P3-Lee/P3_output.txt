@@ -1,0 +1,49 @@
+
+----------------------------------------------------------------
+	Sam Lee
+	CS 626
+	Wed May  8 2013	14:05:46
+----------------------------------------------------------------
+Enter Player's Name: Sam
+
+Choose Your Color
+
+	 O: orange
+	 Y: yellow
+	 G: green
+	 B: blue
+
+ Enter code of desired item: n
+Error! Invalid Input. Try Again
+
+Choose Your Color
+
+	 O: orange
+	 Y: yellow
+	 G: green
+	 B: blue
+
+ Enter code of desired item: G
+
+You picked: Green 
+
+Name	Color	Score	Scoreboard
+------------------------------------
+Sam	Green	    0	0 0 0 
+
+You just captured a column! Your score is now: 1
+You need just 2 more columns to win the game!
+Sam	Green	    1	2 0 0 
+
+You just captured a column! Your score is now: 2
+You need just 1 more columns to win the game!
+Sam	Green	    2	2 3 0 
+
+You just captured a column! Your score is now: 3
+Green just won the game
+Sam	Green	    3	2 3 4 
+Normal termination.
+
+Process returned 0 (0x0)   execution time : 11.457 s
+Press ENTER to continue.
+

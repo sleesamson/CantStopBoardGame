@@ -1,0 +1,184 @@
+# depslib dependency file v1.0
+1371068315 source:/home/slee/CantStop/main.cpp
+	"dice.hpp"
+	"game.hpp"
+	"player.hpp"
+	"color.hpp"
+	"column.hpp"
+	"board.hpp"
+	"CList.hpp"
+
+1371067625 /home/slee/CantStop/dice.hpp
+	"tools.hpp"
+
+1367431085 /home/slee/CantStop/tools.hpp
+	<iostream>
+	<fstream>
+	<sstream>
+	<iomanip>
+	<vector>
+	<string>
+	<algorithm>
+	<limits>
+	<unistd.h>
+	<cstdio>
+	<cstdlib>
+	<cstring>
+	<cmath>
+	<ctime>
+	<cctype>
+	<cstdarg>
+
+1368046121 source:/home/slee/CantStop/tools.cpp
+	"tools.hpp"
+
+1371155280 source:/home/slee/CantStop/dice.cpp
+	"dice.hpp"
+
+1371153766 /home/slee/CantStop/game.hpp
+	"tools.hpp"
+	"dice.hpp"
+	"player.hpp"
+	"color.hpp"
+	"column.hpp"
+	"board.hpp"
+	"CList.hpp"
+	"enums.hpp"
+
+1368564382 /home/slee/CantStop/player.hpp
+	"tools.hpp"
+	"color.hpp"
+
+1371146275 source:/home/slee/CantStop/player.cpp
+	"player.hpp"
+
+1368563970 source:/home/slee/CantStop/color.cpp
+	"color.hpp"
+
+1368046972 /home/slee/CantStop/color.hpp
+	"tools.hpp"
+
+1371157364 source:/home/slee/CantStop/game.cpp
+	"game.hpp"
+
+1371050974 source:/home/slee/CantStop/column.cpp
+	"column.hpp"
+
+1371050945 /home/slee/CantStop/column.hpp
+	"tools.hpp"
+	"player.hpp"
+	"color.hpp"
+
+1371157600 source:/home/slee/CantStop/board.cpp
+	"board.hpp"
+
+1370268438 /home/slee/CantStop/board.hpp
+	"tools.hpp"
+	"column.hpp"
+
+1371047643 /home/slee/CantStop/CList.hpp
+	"tools.hpp"
+
+1370882370 source:/home/slee/CantStop/CList.cpp
+	"CList.hpp"
+
+1371062637 /home/slee/CantStop/enums.hpp
+	"tools.hpp"
+
+1373469425 source:/home/slee/cantstop/board.cpp
+	"board.hpp"
+
+1373468026 /home/slee/cantstop/board.hpp
+	"tools.hpp"
+	"column.hpp"
+
+1371665371 /home/slee/cantstop/tools.hpp
+	<iostream>
+	<fstream>
+	<sstream>
+	<iomanip>
+	<vector>
+	<string>
+	<algorithm>
+	<limits>
+	<unistd.h>
+	<cstdio>
+	<cstdlib>
+	<cstring>
+	<cmath>
+	<ctime>
+	<cctype>
+	<cstdarg>
+	<map>
+
+1373468013 /home/slee/cantstop/column.hpp
+	"tools.hpp"
+	"player.hpp"
+	"color.hpp"
+
+1373466820 /home/slee/cantstop/player.hpp
+	"tools.hpp"
+	"color.hpp"
+	"score.hpp"
+
+1373466820 /home/slee/cantstop/color.hpp
+	"tools.hpp"
+
+1371474834 source:/home/slee/cantstop/color.cpp
+	"color.hpp"
+
+1373467995 source:/home/slee/cantstop/column.cpp
+	"column.hpp"
+
+1373466908 source:/home/slee/cantstop/dice.cpp
+	"dice.hpp"
+
+1373466820 /home/slee/cantstop/dice.hpp
+	"tools.hpp"
+
+1373466028 source:/home/slee/cantstop/game.cpp
+	"game.hpp"
+
+1373468403 /home/slee/cantstop/game.hpp
+	"tools.hpp"
+	"dice.hpp"
+	"player.hpp"
+	"color.hpp"
+	"column.hpp"
+	"board.hpp"
+	"CList.hpp"
+	"enums.hpp"
+	"exceptions.hpp"
+	"scoreboard.hpp"
+
+1373467514 /home/slee/cantstop/CList.hpp
+	"tools.hpp"
+
+1371215423 /home/slee/cantstop/enums.hpp
+	"tools.hpp"
+
+1372173054 source:/home/slee/cantstop/main.cpp
+	"game.hpp"
+
+1372255948 source:/home/slee/cantstop/player.cpp
+	"player.hpp"
+
+1371215424 source:/home/slee/cantstop/tools.cpp
+	"tools.hpp"
+
+1371474834 /home/slee/cantstop/exceptions.hpp
+	"tools.hpp"
+
+1373468289 /home/slee/cantstop/score.hpp
+	"tools.hpp"
+
+1373468150 source:/home/slee/cantstop/score.cpp
+	"score.hpp"
+
+1373470159 /home/slee/cantstop/scoreboard.hpp
+	"tools.hpp"
+	"score.hpp"
+
+1373466028 source:/home/slee/cantstop/scoreboard.cpp
+	"scoreboard.hpp"
+

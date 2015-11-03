@@ -1,0 +1,23 @@
+Test Suite 1: Default parameters of 6 sides and 4 dice in the set.
+Values:       5 5 2 2 
+
+Test Suite 2: Parameters of 4 sides and 1 di in the set.
+Values:       1 
+
+Test Suite 3: Parameters of 8 sides and 4 dice in the set.
+Values:       6 7 2 6 
+
+Test Suite 4: Parameters of 6 sides and 0 dice in the set.
+Values: 
+
+Test Suite 5: Random Range Test, using 6-sided dice 
+Values:       6 3 2 6 
+
+Values:       4 3 6 5 
+
+Values:       4 3 4 3 
+
+Values:       2 5 5 5 
+
+Values:       5 2 1 3 
+

@@ -1,0 +1,60 @@
+Test Suite 1: Default parameters of 6 sides and 2 dice in the set.
+Values:       1 2 
+
+Test Suite 2: Parameters of 4 sides and 1 di in the set.
+Values:       4 
+
+Test Suite 3: Paramters of 8 sides and 4 dice in the set.
+Values:       2 1 1 6 
+
+Test Suite 4: Paramters of 6 sides and 0 dice in the set.
+Values: 
+
+Test Suite 1: Default parameters of 6 sides and 2 dice in the set.
+Values:       5 2 
+
+Test Suite 2: Parameters of 4 sides and 1 di in the set.
+Values:       2 
+
+Test Suite 3: Paramters of 8 sides and 4 dice in the set.
+Values:       7 6 6 3 
+
+Test Suite 4: Paramters of 6 sides and 0 dice in the set.
+Values: 
+
+Test Suite 1: Default parameters of 6 sides and 2 dice in the set.
+Values:       3 5 
+
+Test Suite 2: Parameters of 4 sides and 1 di in the set.
+Values:       3 
+
+Test Suite 3: Paramters of 8 sides and 4 dice in the set.
+Values:       4 4 1 4 
+
+Test Suite 4: Paramters of 6 sides and 0 dice in the set.
+Values: 
+
+Test Suite 1: Default parameters of 6 sides and 2 dice in the set.
+Values:       3 1 
+
+Test Suite 2: Parameters of 4 sides and 1 di in the set.
+Values:       4 
+
+Test Suite 3: Paramters of 8 sides and 4 dice in the set.
+Values:       6 3 5 7 
+
+Test Suite 4: Paramters of 6 sides and 0 dice in the set.
+Values: 
+
+Test Suite 1: Default parameters of 6 sides and 2 dice in the set.
+Values:       6 6 
+
+Test Suite 2: Parameters of 4 sides and 1 di in the set.
+Values:       2 
+
+Test Suite 3: Paramters of 8 sides and 4 dice in the set.
+Values:       4 8 5 7 
+
+Test Suite 4: Paramters of 6 sides and 0 dice in the set.
+Values: 
+

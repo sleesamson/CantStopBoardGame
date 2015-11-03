@@ -1,0 +1,31 @@
+----------------------------------------------------------------
+	Sam Lee
+	CS 626
+	Wed Jun 12 2013	13:41:14
+----------------------------------------------------------------
+CantStopDice Unit Test............
+
+   2	   4	   3	   2	
++-----+	+-----+	+-----+	+-----+
+¦ o   ¦	¦ o o ¦	¦ o   ¦	¦ o   ¦
+¦     ¦	¦     ¦	¦  o  ¦	¦     ¦
+¦   o ¦	¦ o o ¦	¦   o ¦	¦   o ¦
++-----+	+-----+	+-----+	+-----+
+   a	   b	   c	   d	
+Enter two die choices to pair up FIRST (Higher Priority Pair): ab
+Higher priority pair = 6. Lower priority pair = 5
+Enter Y to confirm or N to re-do pair selection: Y
+Higher priority pair total (first array elemnt) = 6
+Lower priority pair total (second array element) = 5
+
+FakeDice Unit Test............
+Line 1 pair totals = 2 12
+Line 2 pair totals = 4 8
+Line 3 pair totals = 4 8
+Line 4 pair totals = 12 10
+reached end of file!
+
+ Error exit; press '.' and 'Enter' to continue
+Process returned 1 (0x1)   execution time : 3.231 s
+Press ENTER to continue.
+

@@ -1,0 +1,54 @@
+
+----------------------------------------------------------------
+	Sam Lee
+	CS 626
+	Wed Jun 12 2013	10:50:10
+----------------------------------------------------------------
+Test Case 1: Empty List
+=====================================================
+Nothing to print! List is empty
+
+Test Case 2: Insert Function
+=====================================================
+Name	Color	Score	Scoreboard
+------------------------------------
+Arf	Orange 	    0	0 0 0 
+Meow	Yellow 	    0	0 0 0 
+Moo	Green 	    0	0 0 0 
+Oink	Blue 	    0	0 0 0 
+
+Test Case 3: Next, Remove, and get_count functions
+=====================================================
+Name	Color	Score	Scoreboard
+------------------------------------
+Arf	Orange 	    0	0 0 0 
+Moo	Green 	    0	0 0 0 
+Oink	Blue 	    0	0 0 0 
+Player count = 3
+
+Test Case 4: Full Circle plus one, then first()
+=====================================================
+calling next()....Moo	Green 	    0	0 0 0 
+calling next()....Oink	Blue 	    0	0 0 0 
+calling next()....Arf	Orange 	    0	0 0 0 
+calling next()....Moo	Green 	    0	0 0 0 
+calling first()....Arf	Orange 	    0	0 0 0 
+
+Test Case 5: Remove all, try first()/next(), then add players again.
+=====================================================
+Removing all players........
+Nothing to print! List is empty
+Trying to call next().....
+No Players have been added to the game yet!
+Adding all players back again.....
+Arf	Orange 	    0	0 0 0 
+Meow	Yellow 	    0	0 0 0 
+Moo	Green 	    0	0 0 0 
+Oink	Blue 	    0	0 0 0 
+
+Normal termination.
+
+Process returned 0 (0x0)   execution time : 0.002 s
+Press ENTER to continue.
+
+

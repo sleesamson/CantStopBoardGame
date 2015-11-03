@@ -1,0 +1,45 @@
+----------------------------------------------------------------
+	Sam Lee
+	CS 626
+	Wed May 22 2013	17:26:17
+----------------------------------------------------------------
+Test Case 1: Construct column 4
+   4 Available     -----  -----  -----  -----  -----  -----  -----
+
+Test Case 2: startTower()
+   4 Available     T----  -----  -----  -----  -----  -----  -----
+
+Test Case 3: move() Advance tower one square
+   4 Available     -----  T----  -----  -----  -----  -----  -----
+
+Test Case 4: stop() Replace tower with player's tile
+   4 Available     -----  -O---  -----  -----  -----  -----  -----
+
+Test Case 5: advance to last square
+   4 Available     -----  -O---  T----  -----  -----  -----  -----
+   4 Available     -----  -O---  -----  T----  -----  -----  -----
+   4 Available     -----  -O---  -----  -----  T----  -----  -----
+   4 Available     -----  -O---  -----  -----  -----  T----  -----
+   4 Pending       -----  -O---  -----  -----  -----  -----  T----
+
+Test Case 6: try to move on last square
+   Error: Illegal Move
+
+Test Case 7: Stop at last square to capture
+   4 Captured      -----  -----  -----  -----  -----  -----  -O---
+
+Test Case 8: Try to startTower on captured column
+   Error: Illegal Move
+
+Test Case 9: New column 2, move() to last square, and bust()
+   2 Available     -----  -----  -----
+   2 Available     T----  -----  -----
+   2 Available     -----  T----  -----
+   2 Pending       -----  -----  T----
+   2 Available     -----  -----  -----
+
+Normal termination.
+
+Process returned 0 (0x0)   execution time : 0.001 s
+Press ENTER to continue.
+

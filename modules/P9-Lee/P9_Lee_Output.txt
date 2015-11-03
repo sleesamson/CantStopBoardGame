@@ -1,0 +1,528 @@
+----------------------------------------------------------------
+	Sam Lee
+	CS 626
+	Mon Jun 17 2013	11:30:52
+----------------------------------------------------------------
+			Welcome To The Game Can't Stop
+
+Enter number of players (2-4):  3
+
+    Color options
+------------------------------
+	O: Orange
+	Y: Yellow
+	G: Green
+	B: Blue
+------------------------------
+Player 1, Enter a color option followed by a name: 4 Sam
+   Invalid Input. Try again!
+
+    Color options
+------------------------------
+	O: Orange
+	Y: Yellow
+	G: Green
+	B: Blue
+------------------------------
+Player 1, Enter a color option followed by a name: J Sam
+   Invalid Input. Try again!
+
+    Color options
+------------------------------
+	O: Orange
+	Y: Yellow
+	G: Green
+	B: Blue
+------------------------------
+Player 1, Enter a color option followed by a name: O Sam
+
+Sam picked: Orange
+Sam (Orange) has been successfully added to the game. 
+
+    Color options
+------------------------------
+	Y: Yellow
+	G: Green
+	B: Blue
+------------------------------
+Player 2, Enter a color option followed by a name: Y Sam
+   You entered Sam. That name is already in use. Please try again!
+
+    Color options
+------------------------------
+	Y: Yellow
+	G: Green
+	B: Blue
+------------------------------
+Player 2, Enter a color option followed by a name: G Jeff
+
+Jeff picked: Green
+Jeff (Green) has been successfully added to the game. 
+
+    Color options
+------------------------------
+	Y: Yellow
+	B: Blue
+------------------------------
+Player 3, Enter a color option followed by a name: G Brett
+   You entered G: Green. That color is already in use. Please try again!
+
+    Color options
+------------------------------
+	Y: Yellow
+	B: Blue
+------------------------------
+Player 3, Enter a color option followed by a name: G Sam
+   Both name and color are already in use
+   You entered Sam and G: Green. Please try again! 
+
+    Color options
+------------------------------
+	Y: Yellow
+	B: Blue
+------------------------------
+Player 3, Enter a color option followed by a name: B Brett
+
+Brett picked: Blue
+Brett (Blue) has been successfully added to the game. 
+
+Starting Game......
+
+
+	Sam Orange's Turn
+----------------------------
+	 1.  Roll
+	 2.  Stop
+	 3.  Quit
+-----------------------------
+
+Enter desired action: 1
+Moving Towers in Columns: 2
+Moving Towers in Columns: 10
+ 2 Available  T---- ----- -----
+ 3 Available  ----- ----- ----- ----- -----
+ 4 Available  ----- ----- ----- ----- ----- ----- -----
+ 5 Available  ----- ----- ----- ----- ----- ----- ----- ----- -----
+ 6 Available  ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+ 7 Available  ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+ 8 Available  ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+ 9 Available  ----- ----- ----- ----- ----- ----- ----- ----- -----
+10 Available  T---- ----- ----- ----- ----- ----- -----
+11 Available  ----- ----- ----- ----- -----
+12 Available  ----- ----- -----
+
+	Sam Orange's Turn
+----------------------------
+	 1.  Roll
+	 2.  Stop
+	 3.  Quit
+-----------------------------
+
+Enter desired action: 3
+
+	Jeff Green's Turn
+----------------------------
+	 1.  Roll
+	 2.  Stop
+	 3.  Quit
+-----------------------------
+
+Enter desired action: 1
+Moving Towers in Columns: 3
+Moving Towers in Columns: 2
+ 2 Available  T---- ----- -----
+ 3 Available  T---- ----- ----- ----- -----
+ 4 Available  ----- ----- ----- ----- ----- ----- -----
+ 5 Available  ----- ----- ----- ----- ----- ----- ----- ----- -----
+ 6 Available  ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+ 7 Available  ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+ 8 Available  ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+ 9 Available  ----- ----- ----- ----- ----- ----- ----- ----- -----
+10 Available  ----- ----- ----- ----- ----- ----- -----
+11 Available  ----- ----- ----- ----- -----
+12 Available  ----- ----- -----
+
+	Jeff Green's Turn
+----------------------------
+	 1.  Roll
+	 2.  Stop
+	 3.  Quit
+-----------------------------
+
+Enter desired action: 1
+Moving Towers in Columns: 3
+Moving Towers in Columns: 12
+ 2 Available  T---- ----- -----
+ 3 Available  ----- T---- ----- ----- -----
+ 4 Available  ----- ----- ----- ----- ----- ----- -----
+ 5 Available  ----- ----- ----- ----- ----- ----- ----- ----- -----
+ 6 Available  ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+ 7 Available  ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+ 8 Available  ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+ 9 Available  ----- ----- ----- ----- ----- ----- ----- ----- -----
+10 Available  ----- ----- ----- ----- ----- ----- -----
+11 Available  ----- ----- ----- ----- -----
+12 Available  T---- ----- -----
+
+	Jeff Green's Turn
+----------------------------
+	 1.  Roll
+	 2.  Stop
+	 3.  Quit
+-----------------------------
+
+Enter desired action: 2
+ 2 Available  ---G- ----- -----
+ 3 Available  ----- ---G- ----- ----- -----
+ 4 Available  ----- ----- ----- ----- ----- ----- -----
+ 5 Available  ----- ----- ----- ----- ----- ----- ----- ----- -----
+ 6 Available  ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+ 7 Available  ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+ 8 Available  ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+ 9 Available  ----- ----- ----- ----- ----- ----- ----- ----- -----
+10 Available  ----- ----- ----- ----- ----- ----- -----
+11 Available  ----- ----- ----- ----- -----
+12 Available  ---G- ----- -----
+
+	Brett Blue's Turn
+----------------------------
+	 1.  Roll
+	 2.  Stop
+	 3.  Quit
+-----------------------------
+
+Enter desired action: 1
+Moving Towers in Columns: 3
+Moving Towers in Columns: 4
+ 2 Available  ---G- ----- -----
+ 3 Available  T---- ---G- ----- ----- -----
+ 4 Available  T---- ----- ----- ----- ----- ----- -----
+ 5 Available  ----- ----- ----- ----- ----- ----- ----- ----- -----
+ 6 Available  ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+ 7 Available  ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+ 8 Available  ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+ 9 Available  ----- ----- ----- ----- ----- ----- ----- ----- -----
+10 Available  ----- ----- ----- ----- ----- ----- -----
+11 Available  ----- ----- ----- ----- -----
+12 Available  ---G- ----- -----
+
+	Brett Blue's Turn
+----------------------------
+	 1.  Roll
+	 2.  Stop
+	 3.  Quit
+-----------------------------
+
+Enter desired action: 1
+Moving Towers in Columns: 3
+Moving Towers in Columns: 4
+ 2 Available  ---G- ----- -----
+ 3 Available  ----- T--G- ----- ----- -----
+ 4 Available  ----- T---- ----- ----- ----- ----- -----
+ 5 Available  ----- ----- ----- ----- ----- ----- ----- ----- -----
+ 6 Available  ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+ 7 Available  ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+ 8 Available  ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+ 9 Available  ----- ----- ----- ----- ----- ----- ----- ----- -----
+10 Available  ----- ----- ----- ----- ----- ----- -----
+11 Available  ----- ----- ----- ----- -----
+12 Available  ---G- ----- -----
+
+	Brett Blue's Turn
+----------------------------
+	 1.  Roll
+	 2.  Stop
+	 3.  Quit
+-----------------------------
+
+Enter desired action: 1
+Moving Towers in Columns: 3
+Moving Towers in Columns: 6
+ 2 Available  ---G- ----- -----
+ 3 Available  ----- ---G- T---- ----- -----
+ 4 Available  ----- T---- ----- ----- ----- ----- -----
+ 5 Available  ----- ----- ----- ----- ----- ----- ----- ----- -----
+ 6 Available  T---- ----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+ 7 Available  ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+ 8 Available  ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+ 9 Available  ----- ----- ----- ----- ----- ----- ----- ----- -----
+10 Available  ----- ----- ----- ----- ----- ----- -----
+11 Available  ----- ----- ----- ----- -----
+12 Available  ---G- ----- -----
+
+	Brett Blue's Turn
+----------------------------
+	 1.  Roll
+	 2.  Stop
+	 3.  Quit
+-----------------------------
+
+Enter desired action: 1
+Moving Towers in Columns: 3
+Moving Towers in Columns: 3
+ 2 Available  ---G- ----- -----
+ 3 Pending    ----- ---G- ----- ----- T----
+ 4 Available  ----- T---- ----- ----- ----- ----- -----
+ 5 Available  ----- ----- ----- ----- ----- ----- ----- ----- -----
+ 6 Available  T---- ----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+ 7 Available  ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+ 8 Available  ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+ 9 Available  ----- ----- ----- ----- ----- ----- ----- ----- -----
+10 Available  ----- ----- ----- ----- ----- ----- -----
+11 Available  ----- ----- ----- ----- -----
+12 Available  ---G- ----- -----
+
+	Brett Blue's Turn
+----------------------------
+	 1.  Roll
+	 2.  Stop
+	 3.  Quit
+-----------------------------
+
+Enter desired action: 2
+ 2 Available  ---G- ----- -----
+ 3 Captured   ----- ---G- ----- ----- ----B
+ 4 Available  ----- ----B ----- ----- ----- ----- -----
+ 5 Available  ----- ----- ----- ----- ----- ----- ----- ----- -----
+ 6 Available  ----B ----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+ 7 Available  ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+ 8 Available  ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+ 9 Available  ----- ----- ----- ----- ----- ----- ----- ----- -----
+10 Available  ----- ----- ----- ----- ----- ----- -----
+11 Available  ----- ----- ----- ----- -----
+12 Available  ---G- ----- -----
+
+	Jeff Green's Turn
+----------------------------
+	 1.  Roll
+	 2.  Stop
+	 3.  Quit
+-----------------------------
+
+Enter desired action: 1
+Moving Towers in Columns: 2
+Moving Towers in Columns: 12
+ 2 Available  ---G- T---- -----
+ 3 Captured   ----- ---G- ----- ----- ----B
+ 4 Available  ----- ----B ----- ----- ----- ----- -----
+ 5 Available  ----- ----- ----- ----- ----- ----- ----- ----- -----
+ 6 Available  ----B ----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+ 7 Available  ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+ 8 Available  ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+ 9 Available  ----- ----- ----- ----- ----- ----- ----- ----- -----
+10 Available  ----- ----- ----- ----- ----- ----- -----
+11 Available  ----- ----- ----- ----- -----
+12 Available  ---G- T---- -----
+
+	Jeff Green's Turn
+----------------------------
+	 1.  Roll
+	 2.  Stop
+	 3.  Quit
+-----------------------------
+
+Enter desired action: 1
+Moving Towers in Columns: 2
+Moving Towers in Columns: 10
+ 2 Pending    ---G- ----- T----
+ 3 Captured   ----- ---G- ----- ----- ----B
+ 4 Available  ----- ----B ----- ----- ----- ----- -----
+ 5 Available  ----- ----- ----- ----- ----- ----- ----- ----- -----
+ 6 Available  ----B ----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+ 7 Available  ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+ 8 Available  ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+ 9 Available  ----- ----- ----- ----- ----- ----- ----- ----- -----
+10 Available  T---- ----- ----- ----- ----- ----- -----
+11 Available  ----- ----- ----- ----- -----
+12 Available  ---G- T---- -----
+
+	Jeff Green's Turn
+----------------------------
+	 1.  Roll
+	 2.  Stop
+	 3.  Quit
+-----------------------------
+
+Enter desired action: 2
+ 2 Captured   ----- ----- ---G-
+ 3 Captured   ----- ---G- ----- ----- ----B
+ 4 Available  ----- ----B ----- ----- ----- ----- -----
+ 5 Available  ----- ----- ----- ----- ----- ----- ----- ----- -----
+ 6 Available  ----B ----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+ 7 Available  ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+ 8 Available  ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+ 9 Available  ----- ----- ----- ----- ----- ----- ----- ----- -----
+10 Available  ---G- ----- ----- ----- ----- ----- -----
+11 Available  ----- ----- ----- ----- -----
+12 Available  ----- ---G- -----
+
+	Brett Blue's Turn
+----------------------------
+	 1.  Roll
+	 2.  Stop
+	 3.  Quit
+-----------------------------
+
+Enter desired action: 1
+Moving Towers in Columns: 7
+Moving Towers in Columns: 9
+ 2 Captured   ----- ----- ---G-
+ 3 Captured   ----- ---G- ----- ----- ----B
+ 4 Available  ----- ----B ----- ----- ----- ----- -----
+ 5 Available  ----- ----- ----- ----- ----- ----- ----- ----- -----
+ 6 Available  ----B ----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+ 7 Available  T---- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+ 8 Available  ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+ 9 Available  T---- ----- ----- ----- ----- ----- ----- ----- -----
+10 Available  ---G- ----- ----- ----- ----- ----- -----
+11 Available  ----- ----- ----- ----- -----
+12 Available  ----- ---G- -----
+
+	Brett Blue's Turn
+----------------------------
+	 1.  Roll
+	 2.  Stop
+	 3.  Quit
+-----------------------------
+
+Enter desired action: 1
+Moving Towers in Columns: 10
+Moving Towers in Columns: 9
+ 2 Captured   ----- ----- ---G-
+ 3 Captured   ----- ---G- ----- ----- ----B
+ 4 Available  ----- ----B ----- ----- ----- ----- -----
+ 5 Available  ----- ----- ----- ----- ----- ----- ----- ----- -----
+ 6 Available  ----B ----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+ 7 Available  T---- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+ 8 Available  ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+ 9 Available  ----- T---- ----- ----- ----- ----- ----- ----- -----
+10 Available  T--G- ----- ----- ----- ----- ----- -----
+11 Available  ----- ----- ----- ----- -----
+12 Available  ----- ---G- -----
+
+	Brett Blue's Turn
+----------------------------
+	 1.  Roll
+	 2.  Stop
+	 3.  Quit
+-----------------------------
+
+Enter desired action: 1
+You went Bust!
+
+	Jeff Green's Turn
+----------------------------
+	 1.  Roll
+	 2.  Stop
+	 3.  Quit
+-----------------------------
+
+Enter desired action: 1
+Moving Towers in Columns: 12
+Moving Towers in Columns: 10
+ 2 Captured   ----- ----- ---G-
+ 3 Captured   ----- ---G- ----- ----- ----B
+ 4 Available  ----- ----B ----- ----- ----- ----- -----
+ 5 Available  ----- ----- ----- ----- ----- ----- ----- ----- -----
+ 6 Available  ----B ----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+ 7 Available  ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+ 8 Available  ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+ 9 Available  ----- ----- ----- ----- ----- ----- ----- ----- -----
+10 Available  ---G- T---- ----- ----- ----- ----- -----
+11 Available  ----- ----- ----- ----- -----
+12 Pending    ----- ---G- T----
+
+	Jeff Green's Turn
+----------------------------
+	 1.  Roll
+	 2.  Stop
+	 3.  Quit
+-----------------------------
+
+Enter desired action: 1
+Moving Towers in Columns: 10
+Moving Towers in Columns: 10
+ 2 Captured   ----- ----- ---G-
+ 3 Captured   ----- ---G- ----- ----- ----B
+ 4 Available  ----- ----B ----- ----- ----- ----- -----
+ 5 Available  ----- ----- ----- ----- ----- ----- ----- ----- -----
+ 6 Available  ----B ----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+ 7 Available  ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+ 8 Available  ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+ 9 Available  ----- ----- ----- ----- ----- ----- ----- ----- -----
+10 Available  ---G- ----- ----- T---- ----- ----- -----
+11 Available  ----- ----- ----- ----- -----
+12 Pending    ----- ---G- T----
+
+	Jeff Green's Turn
+----------------------------
+	 1.  Roll
+	 2.  Stop
+	 3.  Quit
+-----------------------------
+
+Enter desired action: 1
+Moving Towers in Columns: 10
+Moving Towers in Columns: 10
+ 2 Captured   ----- ----- ---G-
+ 3 Captured   ----- ---G- ----- ----- ----B
+ 4 Available  ----- ----B ----- ----- ----- ----- -----
+ 5 Available  ----- ----- ----- ----- ----- ----- ----- ----- -----
+ 6 Available  ----B ----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+ 7 Available  ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+ 8 Available  ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+ 9 Available  ----- ----- ----- ----- ----- ----- ----- ----- -----
+10 Available  ---G- ----- ----- ----- ----- T---- -----
+11 Available  ----- ----- ----- ----- -----
+12 Pending    ----- ---G- T----
+
+	Jeff Green's Turn
+----------------------------
+	 1.  Roll
+	 2.  Stop
+	 3.  Quit
+-----------------------------
+
+Enter desired action: 1
+Moving Towers in Columns: 10
+ 2 Captured   ----- ----- ---G-
+ 3 Captured   ----- ---G- ----- ----- ----B
+ 4 Available  ----- ----B ----- ----- ----- ----- -----
+ 5 Available  ----- ----- ----- ----- ----- ----- ----- ----- -----
+ 6 Available  ----B ----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+ 7 Available  ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+ 8 Available  ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+ 9 Available  ----- ----- ----- ----- ----- ----- ----- ----- -----
+10 Pending    ---G- ----- ----- ----- ----- ----- T----
+11 Available  ----- ----- ----- ----- -----
+12 Pending    ----- ---G- T----
+
+	Jeff Green's Turn
+----------------------------
+	 1.  Roll
+	 2.  Stop
+	 3.  Quit
+-----------------------------
+
+Enter desired action: 2
+ 2 Captured   ----- ----- ---G-
+ 3 Captured   ----- ---G- ----- ----- ----B
+ 4 Available  ----- ----B ----- ----- ----- ----- -----
+ 5 Available  ----- ----- ----- ----- ----- ----- ----- ----- -----
+ 6 Available  ----B ----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+ 7 Available  ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+ 8 Available  ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+ 9 Available  ----- ----- ----- ----- ----- ----- ----- ----- -----
+10 Captured   ----- ----- ----- ----- ----- ----- ---G-
+11 Available  ----- ----- ----- ----- -----
+12 Captured   ----- ----- ---G-
+Jeff Green has just won the game! Terminating Game....
+
+Normal termination.
+
+Process returned 0 (0x0)   execution time : 111.512 s
+Press ENTER to continue.
+
+
+
+

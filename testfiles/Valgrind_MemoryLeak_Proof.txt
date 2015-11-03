@@ -1,0 +1,186 @@
+slee@samson:~$ cd cantstop/bin/Release/
+slee@samson:~/cantstop/bin/Release$ valgrind ./CantStop
+==24159== Memcheck, a memory error detector
+==24159== Copyright (C) 2002-2011, and GNU GPL'd, by Julian Seward et al.
+==24159== Using Valgrind-3.7.0 and LibVEX; rerun with -h for copyright info
+==24159== Command: ./CantStop
+==24159== 
+
+----------------------------------------------------------------
+	Sam Lee
+	CS 626
+	Thu Jun 27 2013	13:51:40
+----------------------------------------------------------------
+			Welcome To The Game Can't Stop
+
+Enter number of players (2-4):  2
+
+    Color options
+------------------------------
+	O: Orange
+	Y: Yellow
+	G: Green
+	B: Blue
+------------------------------
+Player 1, Enter a color option followed by a name: O Sam
+
+Sam chose O: Orange
+Sam has been successfully added to the game. 
+
+    Color options
+------------------------------
+	Y: Yellow
+	G: Green
+	B: Blue
+------------------------------
+Player 2, Enter a color option followed by a name: Y Jeff
+
+Jeff chose Y: Yellow
+Jeff has been successfully added to the game. 
+
+Starting Game......
+
+
+	Sam Orange's Turn
+----------------------------
+	 1.  Roll
+	 2.  Stop
+	 3.  Quit
+	 4.  Show Scoreboard
+-----------------------------
+
+Enter desired action: 1
+
+   6	   5	   5	   5	
++-----+	+-----+	+-----+	+-----+
+¦ o o ¦	¦ o o ¦	¦ o o ¦	¦ o o ¦
+¦ o o ¦	¦  o  ¦	¦  o  ¦	¦  o  ¦
+¦ o o ¦	¦ o o ¦	¦ o o ¦	¦ o o ¦
++-----+	+-----+	+-----+	+-----+
+   a	   b	   c	   d	
+Enter two die choices to pair up FIRST (Higher Priority Pair): ab
+Higher priority pair = 11. Lower priority pair = 10
+Enter Y to confirm or N to re-do pair selection: y
+Moving Towers in Columns: 11
+Moving Towers in Columns: 10
+ 2 Available  ----- ----- -----
+ 3 Available  ----- ----- ----- ----- -----
+ 4 Available  ----- ----- ----- ----- ----- ----- -----
+ 5 Available  ----- ----- ----- ----- ----- ----- ----- ----- -----
+ 6 Available  ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+ 7 Available  ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+ 8 Available  ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+ 9 Available  ----- ----- ----- ----- ----- ----- ----- ----- -----
+10 Available  T---- ----- ----- ----- ----- ----- -----
+11 Available  T---- ----- ----- ----- -----
+12 Available  ----- ----- -----
+
+	Sam Orange's Turn
+----------------------------
+	 1.  Roll
+	 2.  Stop
+	 3.  Quit
+	 4.  Show Scoreboard
+-----------------------------
+
+Enter desired action: 2
+ 2 Available  ----- ----- -----
+ 3 Available  ----- ----- ----- ----- -----
+ 4 Available  ----- ----- ----- ----- ----- ----- -----
+ 5 Available  ----- ----- ----- ----- ----- ----- ----- ----- -----
+ 6 Available  ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+ 7 Available  ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+ 8 Available  ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+ 9 Available  ----- ----- ----- ----- ----- ----- ----- ----- -----
+10 Available  -O--- ----- ----- ----- ----- ----- -----
+11 Available  -O--- ----- ----- ----- -----
+12 Available  ----- ----- -----
+
+	Jeff Yellow's Turn
+----------------------------
+	 1.  Roll
+	 2.  Stop
+	 3.  Quit
+	 4.  Show Scoreboard
+-----------------------------
+
+Enter desired action: 1
+
+   4	   6	   2	   2	
++-----+	+-----+	+-----+	+-----+
+¦ o o ¦	¦ o o ¦	¦ o   ¦	¦ o   ¦
+¦     ¦	¦ o o ¦	¦     ¦	¦     ¦
+¦ o o ¦	¦ o o ¦	¦   o ¦	¦   o ¦
++-----+	+-----+	+-----+	+-----+
+   a	   b	   c	   d	
+Enter two die choices to pair up FIRST (Higher Priority Pair): ab
+Higher priority pair = 10. Lower priority pair = 4
+Enter Y to confirm or N to re-do pair selection: y
+Moving Towers in Columns: 10
+Moving Towers in Columns: 4
+ 2 Available  ----- ----- -----
+ 3 Available  ----- ----- ----- ----- -----
+ 4 Available  T---- ----- ----- ----- ----- ----- -----
+ 5 Available  ----- ----- ----- ----- ----- ----- ----- ----- -----
+ 6 Available  ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+ 7 Available  ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+ 8 Available  ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+ 9 Available  ----- ----- ----- ----- ----- ----- ----- ----- -----
+10 Available  TO--- ----- ----- ----- ----- ----- -----
+11 Available  -O--- ----- ----- ----- -----
+12 Available  ----- ----- -----
+
+	Jeff Yellow's Turn
+----------------------------
+	 1.  Roll
+	 2.  Stop
+	 3.  Quit
+	 4.  Show Scoreboard
+-----------------------------
+
+Enter desired action: 2
+ 2 Available  ----- ----- -----
+ 3 Available  ----- ----- ----- ----- -----
+ 4 Available  --Y-- ----- ----- ----- ----- ----- -----
+ 5 Available  ----- ----- ----- ----- ----- ----- ----- ----- -----
+ 6 Available  ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+ 7 Available  ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+ 8 Available  ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+ 9 Available  ----- ----- ----- ----- ----- ----- ----- ----- -----
+10 Available  -OY-- ----- ----- ----- ----- ----- -----
+11 Available  -O--- ----- ----- ----- -----
+12 Available  ----- ----- -----
+
+	Sam Orange's Turn
+----------------------------
+	 1.  Roll
+	 2.  Stop
+	 3.  Quit
+	 4.  Show Scoreboard
+-----------------------------
+
+Enter desired action: 3
+
+	Jeff Yellow's Turn
+----------------------------
+	 1.  Roll
+	 2.  Stop
+	 3.  Quit
+	 4.  Show Scoreboard
+-----------------------------
+
+Enter desired action: 3
+All players have resigned... Terminating Game....
+
+Normal termination.
+==24159== 
+==24159== HEAP SUMMARY:
+==24159==     in use at exit: 0 bytes in 0 blocks
+==24159==   total heap usage: 46 allocs, 46 frees, 21,918 bytes allocated
+==24159== 
+==24159== All heap blocks were freed -- no leaks are possible
+==24159== 
+==24159== For counts of detected and suppressed errors, rerun with: -v
+==24159== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 2 from 2)
+slee@samson:~/cantstop/bin/Release$ 
+

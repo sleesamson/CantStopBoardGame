@@ -1,0 +1,13 @@
+
+----------------------------------------------------------------
+	Sam Lee
+	CS 626
+	Tue Apr 16 2013	11:41:03
+----------------------------------------------------------------
+Printing output to file......
+
+Normal termination.
+
+Process returned 0 (0x0)   execution time : 0.001 s
+Press ENTER to continue.
+
